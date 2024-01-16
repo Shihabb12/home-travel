@@ -1,22 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
-*{
-    font-family: 'Mulish', sans-serif;;
+
+* {
+    font-family: 'Mulish', sans-serif;
+    ;
 }
+
 .header-img {
     display: flex;
     gap: 10px;
 }
-.container{
+
+.container {
     display: flex;
-    
+
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
-   
-    
+
+
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     list-style: none;
     margin-right: 30px;
@@ -27,8 +33,8 @@ nav > ul{
 }
 
 
-    
-.banner{
+
+.banner {
     display: grid;
     justify-content: center;
     align-items: center;
@@ -38,45 +44,51 @@ nav > ul{
     height: 700px;
     text-align: center;
 }
-.input{
+
+.input {
     border: 2px solid #fff;
     background-color: antiquewhite;
     padding: 25px;
-   
+
     border-radius: 8px;
     display: flex;
-    align-items:center;
+    align-items: center;
     gap: 24px;
-    
+
 }
-.banner-title{
+
+.banner-title {
     font-size: 4rem;
     font-weight: 800;
     color: #fff;
     margin-top: 30px;
 }
-.banner-description{
+
+.banner-description {
     color: #fff;
     font-size: 1rem;
     font-weight: 400;
     padding: 20px 150px;
-    
+
 }
-.we{
-    border-radius: 5px ;
+
+.we {
+    border-radius: 5px;
     background-color: #fff;
     width: 174px;
     height: 52px;
     text-align: center;
-   
-   
+
+
 }
-.input select{
+
+.input select {
     width: 174px;
     height: 52px;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
-.btn-primary{
+
+.btn-primary {
     color: #FFF;
     text-align: center;
     font-size: 1rem;
@@ -85,4 +97,36 @@ nav > ul{
     height: 52px;
     background-color: #ff540f;
     border-radius: 8px;
+}
+
+.banner-container h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.banner-container p {
+    color: rgba(19, 19, 24, 0.70);
+
+    font-size: 16px;
+
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.section-banner {
+    display: flex;
+    margin-top: 50px;
+}
+
+.banner-img img {
+    width:540px;
+    margin-left: 60px;
+    
+
+}
+.banner-title{
+    width: 100px;
 }
