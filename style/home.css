@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+*{
+    font-family: 'Mulish', sans-serif;;
+}
+.header-img {
+    display: flex;
+    gap: 10px;
+}
+.container{
+    display: flex;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 1rem;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+
+    
+.banner{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-size: cover;
+    padding: 50px 70px;
+    height: 700px;
+    text-align: center;
+}
+.input{
+    border: 2px solid #fff;
+    background-color: antiquewhite;
+    padding: 25px;
+   
+    border-radius: 8px;
+    display: flex;
+    align-items:center;
+    gap: 24px;
+    
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 800;
+    color: #fff;
+    margin-top: 30px;
+}
+.banner-description{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 20px 150px;
+    
+}
+.we{
+    border-radius: 5px ;
+    background-color: #fff;
+    width: 174px;
+    height: 52px;
+    text-align: center;
+   
+   
+}
+.input select{
+    width: 174px;
+    height: 52px;
+    border-radius: 5px; 
+}
+.btn-primary{
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 174px;
+    height: 52px;
+    background-color: #ff540f;
+    border-radius: 8px;
+}
